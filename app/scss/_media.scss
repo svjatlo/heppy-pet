@@ -1,0 +1,573 @@
+@media (max-width: 1400px){
+  .registration{
+    &__inner{
+      &::after{
+        right: 5%;
+      }
+    }
+  }
+}
+/*------------------------------1300-----------------------------*/
+@media (max-width: 1300px){
+  .registration{
+    &__inner{
+      &::after{
+        right: 1%;
+      }
+    }
+  }
+}
+/*-----------------------------------1200---------------------------*/
+@media (max-width: 1200px){
+  .header__menu-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.value__title{
+  font-size: 26px;
+  margin-bottom: 65px;
+}
+
+.value__text{
+  font-size: 22px;
+  margin-bottom: 75px;
+}
+
+.value__img{
+  width: 500px;
+  height: 500px;
+}
+
+.benefits{
+  padding: 60px 0 80px;
+  &__title{
+    font-size: 28px;
+    margin-bottom: 60px;
+  }
+  &__description{
+    font-size: 22px;
+    line-height: 150%;
+  }
+}
+
+.services{
+  padding: 80px 0 0;
+}
+
+.review{
+  padding: 80px 0;
+}
+.review-slider__text{
+  font-size: 16px;
+}
+
+.registration{
+  &__inner{
+    &::after{
+      display: none;
+      }
+    }
+    &__textarea{
+      width: 47%;
+      height: 380px;
+    }
+  }
+}
+
+.footer-social{
+  padding: 25px 0;
+  &__item:not(:last-child){
+    margin-right: 55px;
+  }
+  &__img{
+    width: 30px;
+    height: 30px;
+  }
+}
+/*----------------------------1100----------------------------*/
+@media (max-width: 1100px){
+  .btn{
+    font-size: 20px;
+  }
+
+  .header__menu-list{
+    margin-right: 50px;
+  }
+
+  .header__menu-link{
+    font-size: 16px;
+  }
+
+  .header__number{
+    font-size: 16px;
+  }
+
+  .logo__img {
+    max-width: 95%;
+  }
+
+  .value__title{
+    font-size: 24px;
+    margin-bottom: 55px;
+  }
+
+  .value__text{
+    font-size: 20px;
+    margin-bottom: 65px;
+  }
+
+  .footer-social{
+    padding: 25px 0;
+    &__item:not(:last-child){
+      margin-right: 50px;
+    }
+    &__img{
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+/*----------------------------1000-----------------*/
+@media (max-width: 1000px){
+//   .header__menu,
+//   .header__number{
+//     display: none;
+//   }
+
+//   .menu__btn{
+//     display: block;
+//     margin-left: auto;
+//     margin-bottom: 20px;
+//   }
+
+
+
+
+// .header{
+//   &__inner{
+//       position: relative;
+//     }
+//   &__menu{
+//       position: absolute;
+//       right: 40%;
+//       transform: translateY(-500%);
+//     }
+//   &__menu.header__menu--active{
+//       display: block;
+//       transform: translateY(70px);
+//     }
+//   &__menu-list{
+//       display: flex;
+//       flex-direction: column;
+//       align-items: flex-start;
+//     }
+//     &__menu-item:not(:last-child){
+//       margin-bottom: 10px;
+//     }
+// }
+
+
+
+  .header{
+    &__number{
+      display: none;
+  }
+    &__menu-list{
+      margin-right: 0;
+    }
+}
+
+  .value__title span {
+    font-size: 28px;
+  }
+
+  .value__title{
+    font-size: 22px;
+  }
+
+  .value__img{
+    width: 470px;
+    height: 470px;
+  }
+
+  .benefits{
+    padding: 20px 0 40px;
+    &__title{
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    &__description{
+      font-size: 20px;
+    }
+  }
+
+  .services-slider__img{
+    width: 130px;
+    height: 130px;
+  }
+  .services-slider__title{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .review{
+    padding: 60px 0;
+  }
+
+  .review-slider__name{
+    font-size: 22px;
+    margin: 25px 0;
+  }
+
+.registration{
+  padding: 40px 0 80px;
+  &__textarea{
+    width: 65%;
+  }
+  &__items{
+    margin-left: 50px;
+  }
+  }
+}
+/*----------------------------900------------------------------*/
+@media (max-width: 900px){
+  .value{
+  &__inner{
+    padding: 60px 0;
+  }
+  &__img{
+    width: 430px;
+    height: 430px;
+    position: absolute;
+    right: 0;
+    opacity: 0.5;
+  }
+}
+
+.registration{
+  padding-top: 0;
+}
+.slider{
+  max-width: 235px;
+}
+}
+/*----------------------------800-----------------------------*/
+@media (max-width: 800px){
+  .logo__img{
+  max-width: 85%;
+  }
+
+  .header__menu-link{
+    font-size: 14px;
+  }
+
+  .value{
+    &__inner{
+      padding: 50px 0;
+    }
+  }
+
+  .benefits{
+    &__description{
+      font-size: 18px;
+    }
+  }
+
+  .services-slider{
+    &__img{
+      width: 110px;
+      height: 110px;
+    }
+  }
+  .title.services-slider__title{
+    font-size: 18px;
+  }
+
+  .title{
+    font-size: 22px;
+  }
+
+  .registration{
+    &__textarea{
+      height: 330px;
+    }
+    &__items{
+      margin-left: 30px;
+    }
+    &__btn{
+      margin-top: 40px;
+    }
+  }
+}
+/*--------------------------700-----------------------------*/
+@media (max-width: 700px){
+  .header__menu{
+    display: none;
+  }
+
+  .menu__btn{
+    display: block;
+    margin-left: auto;
+    margin-bottom: 20px;
+    position: fixed;
+    right: 15px;
+  }
+
+
+
+
+.header{
+  &__inner{
+    position: relative;
+  }
+  &__menu{
+    position: fixed;
+    right: 0;
+    top: 25px;
+    transform: translateY(-500%);
+  }
+  &__menu.header__menu--active{
+    display: block;
+    transform: translateY(70px);
+    background-color: rgba(100%, 100%, 100%, 0.8);
+    box-shadow: -5px 5px 30px;
+    border-radius: 10px;
+    padding: 15px 0 15px 15px;
+  }
+  &__menu-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &__menu-item:not(:last-child){
+    margin-bottom: 10px;
+  }
+  &__menu-item:last-child{
+    margin-right: 20px;
+  }
+  &__menu-link{
+    font-weight: 800;
+    font-size: 18px;
+  }
+}
+
+
+
+
+  .value{
+    &__inner{
+      padding: 30px 0;
+    }
+    &__title{
+      margin-bottom: 30px;
+    }
+    &__text{
+      margin-bottom: 50px;
+    }
+    &__img{
+      width: 395px;
+      height: 395px;
+    }
+  }
+
+  .benefits{
+    padding: 20px 0;
+  }
+
+  .slider{
+    // max-width: 210px;
+    height: 385px;
+  }
+
+  .registration{
+    &__name,
+    &__phone,
+    &__email{
+      border: 2px solid #ffcb66;
+      margin-bottom: 20px;
+      font-size: 16px;
+      width: 250px;
+      &::placeholder{
+        font-size: 16px;
+      }
+    }
+    &__btn{
+      font-size: 16px;
+      margin-top: 30px;
+    }
+    &__textarea{
+      height: 255px;
+      &::placeholder{
+        font-size: 16px;
+      }
+    }
+  }
+
+  .btn.registration__btn{
+    width: 200px;
+    height: 40px;
+  }
+}
+/*-------------------------600----------------------------*/
+@media (max-width: 600px){
+  .value{
+    &__inner{
+      padding: 20px 0;
+    }
+    &__title{
+      margin: 40px 0 20px;
+      font-size: 20px;
+    }
+    &__title span{
+      font-size: 24px;
+    }
+    &__text{
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+    &__img{
+      width: 325px;
+      height: 325px;
+    }
+  }
+  .benefits{
+    &__title{
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    &__description{
+      font-size: 16px;
+    }
+  }
+  .services{
+    padding-top: 60px;
+    &__subtitle{
+      font-size: 20px;
+    }
+  }
+  .services-slider{
+    &__img{
+      width: 95px;
+      height: 95px;
+    }
+    &__title{
+      margin-bottom: 14px;
+    }
+    &__text{
+      font-size: 14px;
+    }
+  }
+  .title.services-slider__title{
+    font-size: 16px;
+  }
+  .review{
+    padding: 50px 0 30px;
+  }
+  .review-slider{
+    &__subtitle{
+      font-size: 20px;
+    }
+    &__name{
+      font-size: 20px;
+      margin: 20px 0;
+    }
+    &__text{
+      font-size: 14px;
+      line-height: 180%;
+    }
+  }
+  .slider{
+    height: 350px;
+  }
+  .registration{
+    padding-bottom: 40px;
+    &__inner{
+      display: block;
+    }
+    &__textarea{
+      width: 100%;
+      height: 160px;
+      box-shadow: inset 0 0 20px #2bbfee;
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    &__items{
+      margin-left: 0;
+    }
+    &__btn{
+      margin-top: 0;
+    }
+  }
+  .footer-social{
+    padding: 20px 0;
+    &__img{
+      width: 22px;
+      height: 22px;
+    }
+  }
+  .footer-social__item:not(:last-child){
+    margin-right: 40px;
+  }
+}
+/*----------------------------------500------------------------------*/
+
+@media (max-width: 500px){
+  .logo__img{
+    max-width: 80%;
+  }
+  .value__img{
+    display: none;
+  }
+}
+/*-----------------------------400------------------------------*/
+@media (max-width: 400px){
+  .value{
+    &__title{
+      margin: 20px 0;
+    }
+    &__text{
+      font-size: 17px;
+      margin-bottom: 30px;
+    }
+  }
+  .value__title span{
+    font-size: 22px;
+  }
+  .benefits{
+    &__title{
+      font-size: 18px;
+    }
+  }
+  .services{
+    padding-top: 30px;
+    &__subtitle{
+      width: 270px;
+    }
+  }
+  .review{
+    padding: 30px 0;
+  }
+  .registration__name, 
+  .registration__phone, 
+  .registration__email{
+    max-width: 200px;
+  }
+  .footer-social__item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .slick-prev__services,
+  .slick-next__services,
+  .slick-prev__review,
+  .slick-next__review{
+    display: none;
+  }
+  .btn{
+    font-size: 17px;
+    width: 200px;
+    height: 45px;
+  }
+  .title{
+    font-size: 18px;
+  }
+}
